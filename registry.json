@@ -1981,7 +1981,9 @@
   },
    {
     "id": "exzonetwork",
+    "coinId": 10001229,
     "name": "Exzo",
+    "coinId": 20000714,
     "symbol": "XZO",
     "decimals": 18,
     "blockchain": "Ethereum",
