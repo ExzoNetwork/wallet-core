@@ -1979,6 +1979,35 @@
     },
     "testFolderName": "Binance"
   },
+   {
+    "id": "exzonetwork",
+    "name": "Exzo",
+    "symbol": "XZO",
+    "decimals": 18,
+    "blockchain": "Ethereum",
+    "derivation": [
+      {
+        "path": "m/44'/60'/0'/0/0"
+      }
+    ],
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1Extended",
+    "chainId": "1229",
+    "addressHasher": "keccak256",
+    "explorer": {
+      "url": "https://exzoscan.io",
+      "txPath": "/tx/",
+      "accountPath": "/address/",
+      "sampleTx": "0x5ffcfce30baa0a9304456ef3ade385f198e4ca161f33c10d77135f90edbef13a",
+      "sampleAccount": "0x510dCC6B7ca5812dfeA4d32200E0D8281653e825"
+    },
+    "info": {
+      "url": "https://exzo.network",
+      "source": "https://github.com/maticnetwork/contracts",
+      "rpc": "https://mainnet.exzo.technology",
+      "documentation": "https://eth.wiki/json-rpc/API"
+    }
+  },
   {
     "id": "polygon",
     "name": "Polygon",
